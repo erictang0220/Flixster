@@ -16,12 +16,17 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
+- [x] (2pt) User can view the app on various device sizes and orientations.
 - [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
 
-<img src="https://user-images.githubusercontent.com/50003319/154831915-f22dac9e-759f-4c85-a195-63855682a2cf.gif" width=250><br>
+#### iPhone 8 Display:
+<img src="https://user-images.githubusercontent.com/50003319/154859983-81487572-0dda-44c0-87f6-a950ca7b353c.gif" width=250><br>
+
+####iPhone 13 Pro Max Display:
+<img src="https://user-images.githubusercontent.com/50003319/154859987-82debbb2-4f8a-457a-9bb3-fb9f09992faa.gif" width=250><br>
+
 
 ### Notes
-I was encountering problems with label not showing on multiple lines. I was able to fix it my resizing the label size. I also had the problem of not being able to fetch images with http and had to use https in the end.
+I was encountering problems with label not showing on multiple lines. I was able to fix it my resizing the label size. I also had the problem of not being able to fetch images with http and had to use https in the end. Lastly, I encountered problems when incorporating auto layout with tableview. The movie cells were cut in half, and I fixed it by setting the bottom margin of the poster and synopsis to be >= 10.
