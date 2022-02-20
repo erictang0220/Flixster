@@ -60,6 +60,7 @@
 		45C2BCEE27C1BD9500C30096 /* flixsterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixsterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		45C2BCFD27C1C0B700C30096 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		45C2BD0127C1D11300C30096 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		45C2BD0627C20B9500C30096 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		485E9AAD7B1ECF16A294A2E3 /* Pods-flixster-flixsterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster-flixsterUITests.release.xcconfig"; path = "Target Support Files/Pods-flixster-flixsterUITests/Pods-flixster-flixsterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		566505C10487C95579684607 /* Pods-flixster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster.release.xcconfig"; path = "Target Support Files/Pods-flixster/Pods-flixster.release.xcconfig"; sourceTree = "<group>"; };
 		5B910F4C49BE725BA00A348F /* Pods-flixsterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixsterTests.release.xcconfig"; path = "Target Support Files/Pods-flixsterTests/Pods-flixsterTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +130,7 @@
 				45C2BD0127C1D11300C30096 /* MovieCell.swift */,
 				45C2BCFD27C1C0B700C30096 /* MoviesViewController.swift */,
 				45C2BCD427C1BD9500C30096 /* Assets.xcassets */,
+				45C2BD0627C20B9500C30096 /* README.md */,
 				45C2BCD627C1BD9500C30096 /* LaunchScreen.storyboard */,
 				45C2BCD927C1BD9500C30096 /* Info.plist */,
 			);
@@ -172,7 +174,6 @@
 				38FA3801AFCE6FC5121F5071 /* Pods-flixsterTests.debug.xcconfig */,
 				5B910F4C49BE725BA00A348F /* Pods-flixsterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
