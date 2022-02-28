@@ -76,11 +76,8 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 				self.tableView.reloadData()
 				
 				// print to console
-				print(dataDictionary)
+				 // print(dataDictionary)
 				
-				// TODO: Get the array of movies
-				// TODO: Store the movies in a property to use elsewhere
-				// TODO: Reload your table view data
 				
 			}
 		}
@@ -90,12 +87,35 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 
     /*
     // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
+    
     */
+	
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//		Get the new view controller using segue.destination.
+//		Pass the selected object to the new view controller.
+		// print("loading")
+
+		// find the selected movie
+		// sender is the thing you tap on
+		let cell = sender as! UITableViewCell
+
+		// find the index of the cell
+		let indexPath = tableView.indexPath(for: cell)!
+
+		// access the movies array with
+		let movie = movies[indexPath.row]
+
+		// pass the selected movie to the details view controller
+		// segue knows where its going, but we have to cast it
+		 let detailsViewController = segue.destination as! MovieDetailsViewController
+
+		// set the movie variable in MovieDetailsViewController
+		 detailsViewController.movie = movie
+		
+		// deselect the cell after selecting and jumping
+		tableView.deselectRow(at: indexPath, animated: true)
+
+	}
 
 }

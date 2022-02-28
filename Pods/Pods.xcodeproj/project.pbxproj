@@ -170,12 +170,12 @@
 		8982C2CD500AFA7A74D829BE30CA83C1 /* Pods-flixsterTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-flixsterTests-Info.plist"; sourceTree = "<group>"; };
 		8D3AC91C6C86D4318A8425FFA88A2371 /* Pods-flixster-flixsterUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-flixster-flixsterUITests-frameworks.sh"; sourceTree = "<group>"; };
 		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		8E9B19A129AE298E6033AE93D6AC7995 /* Pods-flixster */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-flixster"; path = Pods_flixster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9B19A129AE298E6033AE93D6AC7995 /* Pods_flixster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		928EE42302E3AD8E997E00C4CB0F93FB /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		953045A8689291C8FABCECFA0588EB7E /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
 		9B9CCA17F9E7E6C605DF9F67489C687F /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		9BFDC43429D18B0E19D2678ED471170E /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F6EBC437ACDE89C5CEEA8D6B2BE806D /* Pods-flixsterTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-flixsterTests"; path = Pods_flixsterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D8E1BE0F77EDA2ED4079B663121386 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		A37C1EB65953F63032891D47282845AF /* Pods-flixster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-flixster-umbrella.h"; sourceTree = "<group>"; };
@@ -302,7 +302,7 @@
 			children = (
 				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
 				C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage */,
-				8E9B19A129AE298E6033AE93D6AC7995 /* Pods-flixster */,
+				8E9B19A129AE298E6033AE93D6AC7995 /* Pods_flixster.framework */,
 				DD6A7B1B29F4755D6F8D429C937C86BE /* Pods-flixster-flixsterUITests */,
 				9F6EBC437ACDE89C5CEEA8D6B2BE806D /* Pods-flixsterTests */,
 			);
@@ -400,7 +400,6 @@
 				C4C41AC1D2B69BFDE3BEF3354C0BFBDF /* Validation.swift */,
 				F1168143CD14105FB88D2083DF83E512 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -429,7 +428,6 @@
 				9BFDC43429D18B0E19D2678ED471170E /* UIImageView+AlamofireImage.swift */,
 				AAA4A9A9C0D42409D004EA1CDEBCF623 /* Support Files */,
 			);
-			name = AlamofireImage;
 			path = AlamofireImage;
 			sourceTree = "<group>";
 		};
@@ -540,7 +538,7 @@
 			);
 			name = "Pods-flixster";
 			productName = Pods_flixster;
-			productReference = 8E9B19A129AE298E6033AE93D6AC7995 /* Pods-flixster */;
+			productReference = 8E9B19A129AE298E6033AE93D6AC7995 /* Pods_flixster.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		82CC0BF33E8E455154D90DD03C69C38A /* Pods-flixster-flixsterUITests */ = {

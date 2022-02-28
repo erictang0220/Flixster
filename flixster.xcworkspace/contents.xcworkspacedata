@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/erictang/Desktop/CodePath/flixster/flixster/TrailerViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:flixster.xcodeproj">
    </FileRef>
    <FileRef
