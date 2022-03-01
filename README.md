@@ -16,10 +16,10 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 #### Required Features:
-<img src="https://user-images.githubusercontent.com/50003319/155930807-6b27e88e-b0e1-438a-8ab4-9a85089c828d.gif" width=250><br>
+<img src="https://user-images.githubusercontent.com/50003319/156111102-1405d7d8-473a-4a0a-8634-5b74b6e500b6.gif" width=250><br>
 
 #### Bonus Features:
-<img src="https://user-images.githubusercontent.com/50003319/155930800-d3c7b524-33b5-4f30-a6f6-f92528229599.gif" width=250><br>
+<img src="https://user-images.githubusercontent.com/50003319/156111106-cbb14df8-0d4c-4bb9-b40e-188ef01813da.gif" width=250><br>
 
 ### Notes
 I was struggling to link the poster view to its trailer. It turned out that I didn't check "User interaction enabled" for the poster image view. Also, I forgot to click on the yellow square/circle to name the custom classes in the storyboard sometimes. This can cause items to not be linked properly.  
